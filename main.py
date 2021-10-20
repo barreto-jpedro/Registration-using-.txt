@@ -22,6 +22,7 @@ while True:
         idade = int(input('Idade: '))
         cadastrar(arq, nome, idade)
     elif resposta == 3:
+        print('Até a próxima!')
         break
     else:
         print('Opção inválida. Tente novamente!')
